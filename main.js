@@ -3,85 +3,98 @@ const allStories = [
     id: 0,
     author: "Luna Belle",
     imageUrl: "images/1.jpg",
+    videoUrl:
   },
 
   {
     id: 1,
     author: "Willow Grace",
     imageUrl: "images/2.jpg",
+    videoUrl:
   },
 
   {
     id: 2,
     author: "Emma Smith",
     imageUrl: "images/3.jpg",
+    videoUrl:
   },
 
   {
     id: 3,
     author: "Ruby Skye",
     imageUrl: "images/4.jpg",
+    videoUrl:
   },
 
   {
     id: 4,
     author: "Live Blogger",
     imageUrl: "images/5.jpg",
+    videoUrl:
   },
 
   {
     id: 5,
     author: "Hazel Jade",
     imageUrl: "images/6.jpg",
+    videoUrl:
   },
 
   {
     id: 6,
     author: "Eden Faith",
     imageUrl: "images/7.jpg",
+    videoUrl:
   },
 
   {
     id: 7,
     author: "Flora Maeve",
     imageUrl: "images/8.jpg",
+    videoUrl:
   },
 
   {
     id: 8,
     author: "Nathaniel Hayes",
     imageUrl: "images/9.jpg",
+    videoUrl:
   },
 
   {
     id: 9,
     author: "Everett Lee",
     imageUrl: "images/10.jpg",
+    videoUrl:
   },
 
   {
     id: 9,
     author: "Owen",
     imageUrl: "images/11.jpg",
+    videoUrl:
   },
 
   {
     id: 9,
     author: "Caleb Knox",
     imageUrl: "images/12.jpg",
+    videoUrl:
   },
 
   {
     id: 9,
     author: "Felix",
     imageUrl: "images/13.jpg",
+    videoUrl:
   },
 ];
 
 const stories = document.querySelector(".stories");
 const storiesFullView = document.querySelector(".stories-full-view");
 const closeBtn = document.querySelector(".close-btn");
-const storyImageFull = document.querySelector(".stories-full-view .story img");
+const storyVideoFull = document.querySelector(".stories-full-view .story video");
 const storyAuthorFull = document.querySelector(
   ".stories-full-view .story .author"
 );
@@ -129,7 +142,7 @@ closeBtn.addEventListener("click", () => {
 });
 
 const updateFullView = () => {
-  storyImageFull.src = allStories[currentActive].imageUrl;
+  storyvideoFull.src = allStories[currentActive].videoUrl;
   storyAuthorFull.innerHTML = allStories[currentActive].author;
 };
 
