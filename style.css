@@ -131,7 +131,7 @@ body {
   text-align: center;
 }
 
-.stories-full-view .story img {
+.stories-full-view .story video {
   height: 100%;
   aspect-ratio: 10/16;
   object-fit: cover;
